@@ -18,7 +18,7 @@ workbox.core.clientsClaim();
 
 
 workbox.precaching.precacheAndRoute([
-    //{ url: '/', revision: null },
+    { url: '/', revision: null },
     // ... other entries ...
 ]);
 
